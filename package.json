@@ -1,0 +1,12 @@
+{
+  "name": "andrewebsite",
+  "version": "1.0.0",
+  "description": "This is the HTML repository for Andre's website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
