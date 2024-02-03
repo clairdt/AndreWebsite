@@ -1,9 +1,9 @@
 function App() {
 
-    <h1> This is a poop </h1>
-
+   return
+   <p> This is a poop </p>
+   console.log('App.js loaded!');
 
 
 }
-
 export default App
