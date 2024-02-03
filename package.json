@@ -4,8 +4,7 @@
   "description": "This is the HTML repository for Andre's website.",
   "main": "index.js",
   "scripts": {
-    "start": "cd server && npm server",
-    "server": "nodemon server.js"
+    "start": "cd server && nodemon server.js"
   },
   "keywords": [],
   "author": "",

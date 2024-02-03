@@ -1,9 +1,11 @@
 const express = require('express');
 const app = express();
+const path = require('path'); // Node.js module for working with file paths
 const port = 6969; // using port 
 
-// Middleware (optional)
-app.use(express.json()); // Example middleware for JSON parsing
+
+// Middleware for serving static files from the 'public' directory
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Routes
 app.get('/', (req, res) => {
